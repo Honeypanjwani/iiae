@@ -1,0 +1,20 @@
+.usp .panel-heading a {
+    color: #024ca1;
+    display: block;
+    padding: 10px;
+}
+
+.usp .panel-heading a.collapsed {
+    background-color: #1a5daa;
+    color: #fff;
+}
+
+.usp .panel-heading a:before {
+    font-family: FontAwesome;
+    content: "\f068";
+    padding-right: 10px;
+}
+
+.usp .panel-heading a.collapsed:before {
+    content: "\f067"
+}
